@@ -11,7 +11,7 @@ export const AppIcon: FC<Props> = ({ image, title, href }) => {
   return (
     <a href={href} className={styles.container}>
       <div className={styles.icon}>
-        <img src={image} />
+        <img alt={title} src={image} />
       </div>
       <div className={styles.title}>{title}</div>
     </a>

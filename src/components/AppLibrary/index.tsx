@@ -4,7 +4,7 @@ import { AppIcon } from '../AppIcon'
 
 interface Props {}
 
-export const AppLibrary: FC<Props> = ({}) => {
+export const AppLibrary: FC<Props> = () => {
   return (
     <div className={styles.container}>
       <AppIcon
